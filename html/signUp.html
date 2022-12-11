@@ -59,9 +59,22 @@
                         <input type="text" id="password" name="password" required>
                         <button type="submit" name="submit" value="submit" class="create-account">Create Account</button>
                     </div>
+                    
+                    <div class="field">
+                        <label for="forgotten password"></label>
+                        <p class="forgotten password"><a href="{% url 'password_reset' %}">
+                            Forgotten Password?</a></p>
+                        <!-- <input type="text" placeholder="Enter Email"/>
+                    </div>
+                    <div class="form.submit">
+                        <input type="submit" value="send"/>
+                    </div> -->
+                    
+
+                    </div>
 
                     <div class="others-form">
-                        <p class="agree">By creating an accont, you agree to our <span>Terms Of Use</span> and <span>Privacy Policy</span></p>
+                        <p class="agree">By creating an account, you agree to our <span>Terms Of Use</span> and <span>Privacy Policy</span></p>
                         <p class="signin">Already have an account? <a href="#">Sign In</a></p>
                     </div>
                 </form>
